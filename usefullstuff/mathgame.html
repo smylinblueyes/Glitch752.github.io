@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>math game</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/c7ae05441b.js" crossorigin="anonymous"></script>
+
+    <div class="backgroundiv"></div>
+
+    <div class="center">
+        <button class="button">PLAY</button>
+        <button class="button">HOME</button>
+    </div>
+
+    <div class="infoc"><i class="fas fa-info-circle" style="font-size: 30px;" ></i></div>
+
+    <style>
+        .infoc{
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+        }
+        .center {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 160px;
+            height: 120px;
+        }
+        .button {
+            font-family: ABeeZee;
+            font-size: 40px;
+            font-weight: bold;
+            width: 150px;
+            height: 50px;
+            margin: 5px;
+            border: 1px solid #000;
+            background-color: lightgray;
+        }
+        body {
+            /* background-image: ; */
+            margin: 0;
+            padding: 0;
+        }
+        .backgroundiv {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            overflow: auto;
+            background-color: rgba(126, 126, 126, 0.61);
+            z-index: -1;
+        }
+    </style>
+</body>
+</html>
