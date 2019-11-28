@@ -684,13 +684,6 @@ function toIndex(x, y)
 
 window.onload = function()
 {
-	$(window).bind("resize", function(){
-    var w = $(window).width();
-    var h = $(window).height();
-
-    $("#game").css("width", w + "px");
-    $("#game").css("height", h + "px"); 
-	});
 
 	ctx = document.getElementById('game').getContext("2d");
 	requestAnimationFrame(drawGame);
