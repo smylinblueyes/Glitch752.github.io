@@ -889,6 +889,7 @@ function fullscreenview(){
 		background-color: lightgrey;
 		padding: 0;
 		margin: 0;
+		text-align: center;
 	}
 	.game {
 		display: block;
@@ -903,7 +904,11 @@ function fullscreenview(){
 		margin-right: auto;
 		border: 1px solid #000;
 		background-color: #fff;
-		margin-bottom: 5px;
+	}	
+	.smallgrey {
+		color: grey;
+		font-size: 7px;
+		margin-top: 2px;
 	}
 </style>
 
@@ -913,7 +918,9 @@ function fullscreenview(){
 <canvas id="game" class = "game" width = "400" height = "400" ></canvas>
 
 <button class = "button" onclick = "fullscreenview()">play(fullscreen)</button>
+<p class = "smallgrey">For Chrome or Firefox</p>
 <button class = "button" onclick = "window.location.href = 'https://glitch752.github.io';">home</button>
+<p>This game does <b>not </b>use flash. This means all you need is a decent browser (like chrome) and no plugins at all.</p>
 
 </body>
 </html>
